@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "are_you_zen": {
+      "type": "text"
+    },
+    "who_we_are": {
+      "type": "text"
+    },
+    "what_we_do": {
+      "type": "text"
+    },
+    "our_philosophy": {
+      "type": "text"
+    }
+  }
+}
