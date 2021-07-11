@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "contact-form.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "handler": "contact-form.create",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
